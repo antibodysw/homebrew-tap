@@ -1,6 +1,6 @@
 cask "wiztree" do
-  version "1.00"
-  sha256 "557395cc5fbc2c3acdd3e948352ed64d53ca9e11cff2045a74b6fe46a15ed15c"
+  version "1.01"
+  sha256 "8648e92d42aff01b5e8bb64f13f59d7dc205b5151bb609e8eb94189900823ee5"
 
   url "https://diskanalyzer.com/files/WizTreeMac_#{version.tr(".", "_")}.dmg"
   name "WizTreeMac"
