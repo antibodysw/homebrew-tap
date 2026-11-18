@@ -2,7 +2,7 @@ cask "wiztree" do
   version "1.01"
   sha256 "8648e92d42aff01b5e8bb64f13f59d7dc205b5151bb609e8eb94189900823ee5"
 
-  url "https://diskanalyzer.com/files/WizTreeMac_#{version.tr(".", "_")}.dmg"
+  url "https://diskanalyzer.com/files/WizTreeMac_#{version.to_s.tr(".", "_")}.dmg"
   name "WizTreeMac"
   desc "Disk space analyzer that shows what's taking up space on your drive"
   homepage "https://diskanalyzer.com/"
